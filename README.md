@@ -15,12 +15,7 @@ Este projeto é uma página web informativa dedicada a reunir a mitologia (*lore
 - **A História:** Uma visão geral do enredo principal do jogo e o contexto da *Maw*.
 - **A Protagonista:** Detalhes sobre **Six** e sua jornada de sobrevivência.
 - **Os Personagens & Inimigos:**
-  - **Six** (A garota do capa de chuva amarelo)
-  - **O Zelador** (*The Janitor*)
-  - **Os Cozinheiros Gêmeos** (*The Twin Chefs*)
-  - **O Convidado** (*The Guests*)
-  - **A Senhora** (*The Lady*)
-  - **Nomes** (*Nomes*)
+  - **Six** - **O Zelador**  - **Os Cozinheiros Gêmeos**  - **O Convidado**- **A Senhora**  - **Nomes** 
 
 ---
 
