@@ -1,9 +1,9 @@
-body{
-    justify-content: center;align-items: center; gap: 15px;
+body {
+    justify-content: center;align-items: center; gap: 15px; height: 1000px;
 }
 
 #background{
-    width: 100%;;max-width:1000px;height:auto;
+    width: 100%;;max-width:1000px;height:auto;    margin-top: -300px;
 }
 
 .menu{
@@ -17,6 +17,10 @@ body{
 
 .historia:hover, .personagens:hover, .criadores:hover{
     cursor:pointer; opacity: 0.5;
+}
+
+h3{
+    margin-bottom: -900px; position: absolute; font-size:small;
 }
 
 @media (max-width: 600px) {

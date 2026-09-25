@@ -1,10 +1,10 @@
 body {
     background-image: linear-gradient(rgb(1, 35, 78),rgb(0, 0, 0));background-repeat: no-repeat; background-size:cover;
-    display: flex;margin: 0; padding: 0; height: 100vh; flex-flow: column; 
+    display: flex;margin: 0; padding: 0; height: 100vh; flex-direction: column;
 }
 
 h1 {
-    font-family: 'Courier New', Courier, monospace; color: white; size:100px; position: fixed;
+    font-family: 'Courier New', Courier, monospace; color: white; size:100px; position: fixed;justify-self: center; align-self: center;
 }
 h2, h3 {
     font-family: 'Courier New', Courier, monospace; color: #ffffff; 
@@ -16,7 +16,7 @@ h4, h5, h6 {
     text-decoration: none;
 }
 img {
-    border-radius: 10px; box-shadow: rgb(0, 0, 0) 0px 10px 10px;
+    border-radius: 10px; box-shadow: rgb(0, 0, 0) 0px 10px 10px; align-self: center;
 }
 
 /* Base para criação dos botões voltar */
