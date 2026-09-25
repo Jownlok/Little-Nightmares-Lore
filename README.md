@@ -1,12 +1,12 @@
 # Little Nightmares Lore 🕯️
-
+Link = https://jownlok.github.io/Little-Nightmares-Lore/
 Site desenvolvido para explorar a história, o universo sombrio e os personagens marcantes do primeiro jogo *Little Nightmares*.
 
 ---
 
-## 📖 Sobre o Projeto
+## 📖 
 
-Este projeto é uma página web informativa dedicada a reunir a mitologia (*lore*) de *Little Nightmares 1*. O objetivo é oferecer uma navegação imersiva para fãs que desejam entender os mistérios por trás da A Balsa (*The Maw*) e das criaturas que a habitam.
+Página web informativa dedicada a reunir a mitologia (*lore*) de *Little Nightmares 1*. O objetivo é oferecer uma navegação imersiva para fãs que desejam entender os mistérios por trás da A Balsa (*The Maw*) e das criaturas que a habitam.
 
 ---
 
