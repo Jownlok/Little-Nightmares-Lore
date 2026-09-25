@@ -1,0 +1,9 @@
+h1 {
+    align-self: center;
+}
+
+article{
+    width: 100%;;max-width: 1000px; height: 500px; justify-self: center; align-self: center; padding: 15px; border-radius: 10px; box-shadow: rgb(0, 0, 0) 0px 10px 10px  ;
+    overflow: auto;
+    background-color: rgb(0, 16, 37); 
+}

@@ -1,0 +1,27 @@
+body{
+    justify-content: center;align-items: center; gap: 15px;
+}
+
+#background{
+    width: 100%;;max-width:1000px;height:auto;
+}
+
+.menu{
+    width: 100%; max-width: 550px;height: auto; justify-content: center; display: flex; gap: 15px; padding: 10px; border-radius: 10px;flex-shrink: 1;
+    background-color: rgb(0, 16, 37); 
+}
+
+.menu a {
+  text-decoration: none;
+}
+
+.historia:hover, .personagens:hover, .criadores:hover{
+    cursor:pointer; opacity: 0.5;
+}
+
+@media (max-width: 600px) {
+    /* Adaptação para mobile da largura */
+    .menu {
+        width: 500px;
+    }
+}
