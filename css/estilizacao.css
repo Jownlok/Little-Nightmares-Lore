@@ -3,6 +3,16 @@ body {
     display: flex;margin: 0; padding: 0; height: 100vh; flex-flow: column; padding-left: 16px;padding-right: 16px;
 }
 
+/* Menu Navegação */
+#MenuNavegacao{
+    position: fixed; left: 0; top: 50%;margin-top: auto;width: 100%; max-width: 60px;height: fit-content; margin-left: 15px;border-radius: 10px;z-index: 999999;text-align: center;
+    background-color: rgb(0, 16, 37);
+}
+.menuh2{
+    font-size: large;    
+}
+
+
 h1 {
     font-family: 'Courier New', Courier, monospace; color: white; size:100px; position: fixed;
 }

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/estilizacao.css">
+    <link rel="stylesheet" href="../../css/dlc.css">
+    <title>DLCs</title>
+</head>
+<body>
+    
+    <!-- Menu Navegação -->
+    <header id="MenuNavegacao">
+        <a href="../../index.html" class="botao"><h2 class="menuh2">Games</h2></a>
+        <a href="ln_dlcs.html" class="botao"><h2 class="menuh2">DLCs</h2></a>
+        <a href="ln_artes.html" class="botao"><h2 class="menuh2">Artes</h2></a>
+    </header>
+
+    <!-- Little Nightmares 1 -->
+    <h2>Little Nightmares 1</h2>
+     <div class="blocoum">
+        <img src="../../img/dlc/ln1/the_depths.jpg" alt="dlc as profundezas">
+        <img src="../../img/dlc/ln1/hideway.jfif" alt="dlc nomes">
+        <img src="../../img/dlc/ln1/residence.jfif" alt="dlc gueixa">
+     </div>
+
+    <!-- Little Nightmares 3 -->
+     <h2>Little Nightmares 3</h2>
+     <div class="blocoum">
+        <img src="../../img/dlc/ln3/backstage.jfif" alt="dlc as profundezas">
+        <img src="../../img/dlc/ln1/hideway.jfif" alt="dlc nomes">
+     </div>
+
+     <script>
+        // SFX Botões
+        const botoes = document.querySelectorAll('.botao');
+        const som = new Audio('../../mp3/button_start.ogg');
+
+        botoes.forEach(botao => {
+            botao.addEventListener('mouseenter', () => {
+            som.currentTime = 0;
+            som.play().catch(error => {
+                console.log("Aguardando interação do usuário para reproduzir som.");
+            });
+            });
+        });
+     </script>
+</body>
+</html>

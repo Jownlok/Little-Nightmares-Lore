@@ -1,0 +1,26 @@
+body{
+    align-items: center;height: 1500px;
+}
+.blocoum{
+    display:flex;justify-content:center;gap: 15px;
+}
+img{
+    width: 100%;height: 200px;max-width: 300px;object-fit: contain;
+}
+
+.blocodois{
+    display:grid;justify-content:center;gap: 15px;grid-template-columns: repeat(5, 1fr);
+}
+
+
+@media (max-width: 600px)  {
+    .blocoum{
+        display:flex;justify-content:center;flex-direction: column;
+    }
+    .blocodois{
+        display:grid;justify-content:center;gap: 15px;grid-template-columns: repeat(2, 1fr);
+    }
+    body{
+        height: auto;
+    }
+}

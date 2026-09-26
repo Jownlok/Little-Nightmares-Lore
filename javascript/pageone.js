@@ -7,6 +7,9 @@ var botao6 = document.querySelector(".criadores2");
 var botao7 = document.querySelector(".historia3");
 var botao8 = document.querySelector(".personagens3");
 var botao9 = document.querySelector(".criadores3");
+var botao10 = document.querySelector(".botao1");
+var botao11 = document.querySelector(".botao2");
+var botao12 = document.querySelector(".botao3");
 
 [botao1, botao2, botao3, botao4, botao5, botao6, botao7, botao8, botao9].forEach(function(botao) {
   if (!botao) return;
@@ -28,7 +31,7 @@ var botao9 = document.querySelector(".criadores3");
 
 // SFX Botões
 const som = new Audio('../mp3/button_start.ogg');
-[botao1, botao2, botao3, botao4, botao5, botao6, botao7, botao8, botao9].forEach(botao => {
+[botao1, botao2, botao3, botao4, botao5, botao6, botao7, botao8, botao9, botao10, botao11, botao12].forEach(botao => {
   botao.addEventListener('mouseenter', () => {
     som.currentTime = 0;
     som.play();
