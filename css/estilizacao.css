@@ -1,6 +1,6 @@
 body {
     background-image: linear-gradient(rgb(1, 35, 78),rgb(0, 0, 0));background-repeat: no-repeat; background-size:cover;
-    display: flex;margin: 0; padding: 0; height: 100vh; flex-flow: column; 
+    display: flex;margin: 0; padding: 0; height: 100vh; flex-flow: column; padding-left: 16px;padding-right: 16px;
 }
 
 h1 {

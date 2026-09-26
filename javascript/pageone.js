@@ -1,8 +1,11 @@
 var botao1 = document.querySelector(".historia");
 var botao2 = document.querySelector(".personagens");
 var botao3 = document.querySelector(".criadores");
+var botao4 = document.querySelector(".historia2");
+var botao5 = document.querySelector(".personagens2");
+var botao6 = document.querySelector(".criadores2");
 
-[botao1, botao2, botao3].forEach(function(botao) {
+[botao1, botao2, botao3, botao4, botao5, botao6].forEach(function(botao) {
   if (!botao) return;
 
   botao.style.position = "relative";

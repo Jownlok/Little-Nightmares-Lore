@@ -1,5 +1,5 @@
 body{
-    background-repeat: repeat; height: 1500px;
+    background-repeat: repeat; height: 1000px;
 }
 h1{
     align-self: center;
@@ -7,7 +7,7 @@ h1{
 
 article{
     width: 100%;;max-width: 1000px; height: 500px; justify-content: center; align-content: center; padding: 15px; border-radius: 10px; box-shadow: rgb(0, 0, 0) 0px 10px 10px;justify-self: center; align-self: center;
-    overflow: auto;
+    overflow: auto; 
     background-color: rgb(0, 16, 37); 
 }
 
@@ -20,27 +20,4 @@ img:hover{
     border: solid rgb(255, 255, 255) 1px; opacity: 0.5; transform: scale(1.1);
 }
 
-.card{
-    background-color:rgb(0, 0, 0); 
-    width: 100%;;max-width: 1000px; height: 500px; position: absolute;align-self: center; margin-top: 700px;border-radius: 10px;box-shadow: rgb(0, 0, 0) 0px 10px 10px;
-    justify-items: center; align-items: center;
-}
 
-.card1, .card2, .card3, .card4, .card5, .card6, .card7 {
-    opacity: 0;
-    max-height: 0;
-    overflow: hidden;
-    transition: opacity 0.4s ease, max-height 0.4s ease;
-}
-
-.card1:target, .card2:target, .card3:target,.card4:target, .card5:target, .card6:target,.card7:target {
-    opacity: 1;max-height: 500px; 
-}
-
-article a img {
-    cursor: pointer;transition: transform 0.2s ease;
-}
-
-article a img:hover {
-    transform: scale(1.05);
-}
