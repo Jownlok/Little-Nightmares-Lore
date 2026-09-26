@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/estilizacao.css">
+    <link rel="stylesheet" href="../../css/dlc.css">
+    <title>Artes</title>
+</head>
+<body>
+    
+    <!-- Menu Navegação -->
+    <header id="MenuNavegacao">
+        <a href="../../index.html" class="botao"><h2 class="menuh2">Games</h2></a>
+        <a href="ln_dlcs.html" class="botao"><h2 class="menuh2">DLCs</h2></a>
+        <a href="ln_artes.html" class="botao"><h2 class="menuh2">Artes</h2></a>
+    </header>
+
+    <!-- Little Nightmares 1 -->
+    <h2>Little Nightmares 1</h2>
+     <div class="blocodois">
+        <img src="../../img/art/ln1/1.png" alt="arte conceitual">
+        <img src="../../img/art/ln1/2.png" alt="arte conceitual">
+        <img src="../../img/art/ln1/3.png" alt="arte conceitual">
+        <img src="../../img/art/ln1/4.png" alt="arte conceitual">
+        <img src="../../img/art/ln1/5.png" alt="arte conceitual">
+        <img src="../../img/art/ln1/6.png" alt="arte conceitual">
+        <img src="../../img/art/ln1/7.png" alt="arte conceitual">
+        <img src="../../img/art/ln1/8.png" alt="arte conceitual">
+        <img src="../../img/art/ln1/9.png" alt="arte conceitual">
+        <img src="../../img/art/ln1/10.png" alt="arte conceitual">
+     </div>
+
+    <!-- Little Nightmares 2 -->
+    <h2>Little Nightmares 2</h2>
+     <div class="blocodois">
+        <img src="../../img/art/ln2/1.png" alt="arte conceitual">
+        <img src="../../img/art/ln2/2.png" alt="arte conceitual">
+        <img src="../../img/art/ln2/3.png" alt="arte conceitual">
+        <img src="../../img/art/ln2/4.png" alt="arte conceitual">
+        <img src="../../img/art/ln2/5.png" alt="arte conceitual">
+        <img src="../../img/art/ln2/6.png" alt="arte conceitual">
+        <img src="../../img/art/ln2/7.png" alt="arte conceitual">
+        <img src="../../img/art/ln2/8.png" alt="arte conceitual">
+        <img src="../../img/art/ln2/9.png" alt="arte conceitual">
+        <img src="../../img/art/ln2/10.png" alt="arte conceitual">
+     </div>
+    
+     <!-- Little Nightmares 3 -->
+    <h2>Little Nightmares 3</h2>
+     <div class="blocodois">
+        <img src="../../img/art/ln1/1.png" alt="arte conceitual">
+        <img src="../../img/art/ln1/2.png" alt="arte conceitual">
+        <img src="../../img/art/ln1/3.png" alt="arte conceitual">
+        <img src="../../img/art/ln1/4.png" alt="arte conceitual">
+        <img src="../../img/art/ln1/5.png" alt="arte conceitual">
+        <img src="../../img/art/ln1/6.png" alt="arte conceitual">
+        <img src="../../img/art/ln1/7.png" alt="arte conceitual">
+        <img src="../../img/art/ln1/8.png" alt="arte conceitual">
+        <img src="../../img/art/ln1/9.png" alt="arte conceitual">
+        <img src="../../img/art/ln1/10.png" alt="arte conceitual">
+     </div>
+
+    <script>
+        // SFX Botões
+        const botoes = document.querySelectorAll('.botao');
+        const som = new Audio('../../mp3/button_start.ogg');
+
+        botoes.forEach(botao => {
+            botao.addEventListener('mouseenter', () => {
+            som.currentTime = 0;
+            som.play().catch(error => {
+                console.log("Aguardando interação do usuário para reproduzir som.");
+            });
+            });
+        });
+    </script>     
+</body>
+</html>

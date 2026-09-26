@@ -1,9 +1,10 @@
 body {
-    justify-content: center;align-items: center; gap: 15px; height: 2500px; margin-top: -250px;
+    justify-content: center;align-items: center; gap: 15px; height: 2500px; 
 }
 
+/* Página Inicial */
 #background{
-    width: 100%;;max-width:1000px;height:auto;margin-top: 100px;
+    width: 100%;;max-width:1000px;height:auto;margin-top: -450px;
 }
 
 #background2, #background3{
@@ -29,7 +30,13 @@ h3{
 
 @media (max-width: 600px) {
     /* Adaptação para mobile da largura */
-    .menu {
-        width: 500px;
+    body{
+         margin-top: -400px;
+    }
+    .menu, .menu2 {
+        width: 400px;
+    }
+    h2{
+        font-size:larger;
     }
 }
