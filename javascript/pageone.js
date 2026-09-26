@@ -1,8 +1,14 @@
 var botao1 = document.querySelector(".historia");
 var botao2 = document.querySelector(".personagens");
 var botao3 = document.querySelector(".criadores");
+var botao4 = document.querySelector(".historia2");
+var botao5 = document.querySelector(".personagens2");
+var botao6 = document.querySelector(".criadores2");
+var botao7 = document.querySelector(".historia3");
+var botao8 = document.querySelector(".personagens3");
+var botao9 = document.querySelector(".criadores3");
 
-[botao1, botao2, botao3].forEach(function(botao) {
+[botao1, botao2, botao3, botao4, botao5, botao6, botao7, botao8, botao9].forEach(function(botao) {
   if (!botao) return;
 
   botao.style.position = "relative";
@@ -22,8 +28,7 @@ var botao3 = document.querySelector(".criadores");
 
 // SFX Botões
 const som = new Audio('../mp3/button_start.ogg');
-
-[botao1, botao2, botao3].forEach(botao => {
+[botao1, botao2, botao3, botao4, botao5, botao6, botao7, botao8, botao9].forEach(botao => {
   botao.addEventListener('mouseenter', () => {
     som.currentTime = 0;
     som.play();
@@ -31,14 +36,20 @@ const som = new Audio('../mp3/button_start.ogg');
 });
 
 // Fade / Musica de inicio em LOOP
-const musicaFundo = new Audio('../mp3/musica.mp3');
+const musicaFundo = new Audio('./mp3/musica.mp3');
 musicaFundo.loop = true;
+musicaFundo.muted = true;
 
-musicaFundo.play().catch(error => {
-  console.log("O navegador bloqueou o áudio automático.");
-});
+musicaFundo.play().then(() => {
+  const ativarSom = () => {
+    musicaFundo.muted = false;
+    document.removeEventListener('click', ativarSom);
+  };
+  document.addEventListener('click', ativarSom);
+}).catch(() => {});
+
 function pararComFadeOut(audio, duracaoEmSegundos = 1.5) {
-  const passos = 20; 
+  const passos = 20;
   const intervaloTempo = (duracaoEmSegundos * 1000) / passos;
   const decrementoVolume = audio.volume / passos;
 
@@ -46,8 +57,9 @@ function pararComFadeOut(audio, duracaoEmSegundos = 1.5) {
     if (audio.volume > decrementoVolume) {
       audio.volume -= decrementoVolume;
     } else {
-      audio.volume = 0;audio.pause();clearInterval(fade);
+      audio.volume = 0;
+      audio.pause();
+      clearInterval(fade);
     }
   }, intervaloTempo);
 }
-

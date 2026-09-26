@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/p3.css">
+    <title>Criadores</title>
+</head>
+<body>
+    
+     <h1>Criadores</h1>
+     <div id="Menu">
+        <a href="../index.html"><h2> < Voltar</h2></a>
+    </div>
+
+    <img src="../img/logo2.jfif" alt="Logo da SUPERMASSIVE GAMES" width="300px">
+    <img src="../img/bandai_logo.png" alt="Logo da Bandai Namco" width="300px" id="img2">
+
+    <script>
+        const musicaFundo = new Audio('../mp3/background.ogg');
+        musicaFundo.loop = true;
+        musicaFundo.play().catch(error => {
+        console.log("O navegador bloqueou o áudio automático. Aguardando clique do usuário.");
+        });
+    </script>
+</body>
+</html>

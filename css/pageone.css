@@ -1,13 +1,17 @@
 body {
-    justify-content: center;align-items: center; gap: 15px; height: 1000px;
+    justify-content: center;align-items: center; gap: 15px; height: 2500px; margin-top: -250px;
 }
 
 #background{
-    width: 100%;;max-width:1000px;height:auto;    margin-top: -300px;
+    width: 100%;;max-width:1000px;height:auto;margin-top: 100px;
 }
 
-.menu{
-    width: 100%; max-width: 550px;height: auto; justify-content: center; display: flex; gap: 15px; padding: 10px; border-radius: 10px;flex-shrink: 1;
+#background2, #background3{
+    width: 100%;max-width:1000px;height:auto;
+}
+
+.menu, .menu2{
+    width: 100%; max-width: 500px;height: auto; justify-content: center; display: flex; gap: 15px; padding: 10px; border-radius: 10px;flex-shrink: 1;
     background-color: rgb(0, 16, 37); 
 }
 
@@ -20,7 +24,7 @@ body {
 }
 
 h3{
-    margin-bottom: -900px; position: absolute; font-size:small;
+    margin-bottom: -2450px; position: absolute; font-size:small;
 }
 
 @media (max-width: 600px) {
