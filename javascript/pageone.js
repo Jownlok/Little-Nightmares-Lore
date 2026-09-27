@@ -1,15 +1,6 @@
-var botao1 = document.querySelector(".historia");
-var botao2 = document.querySelector(".personagens");
-var botao3 = document.querySelector(".criadores");
-var botao4 = document.querySelector(".historia2");
-var botao5 = document.querySelector(".personagens2");
-var botao6 = document.querySelector(".criadores2");
-var botao7 = document.querySelector(".historia3");
-var botao8 = document.querySelector(".personagens3");
-var botao9 = document.querySelector(".criadores3");
-var botao10 = document.querySelector(".botao1");
-var botao11 = document.querySelector(".botao2");
-var botao12 = document.querySelector(".botao3");
+var botao1 = document.querySelector(".historia");var botao2 = document.querySelector(".personagens");var botao3 = document.querySelector(".criadores")
+var botao4 = document.querySelector(".historia2");var botao5 = document.querySelector(".personagens2");var botao6 = document.querySelector(".criadores2");var botao7 = document.querySelector(".historia3");var botao8 = document.querySelector(".personagens3");
+var botao9 = document.querySelector(".criadores3");var botao10 = document.querySelector(".botao1");var botao11 = document.querySelector(".botao2");var botao12 = document.querySelector(".botao3");
 
 [botao1, botao2, botao3, botao4, botao5, botao6, botao7, botao8, botao9].forEach(function(botao) {
   if (!botao) return;
