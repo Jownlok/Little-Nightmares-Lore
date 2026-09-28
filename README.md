@@ -1,6 +1,6 @@
 # Little Nightmares Lore 🕯️
 Link = [https://jownlok.github.io/Little-Nightmares-Lore/](https://jownlok.github.io/Little-Nightmares-Lore/)
--Site desenvolvido para explorar a história, o universo sombrio e os personagens marcantes do primeiro jogo *Little Nightmares*.
+**Site desenvolvido para explorar a história, o universo sombrio e os personagens marcantes do primeiro jogo *Little Nightmares**.
 ---
 
 ## 🕹️ Conteúdo do Site
