@@ -5,7 +5,8 @@ body {
 
 /* Menu Navegação */
 #MenuNavegacao{
-    position: fixed; left: 0; top: 50%;margin-top: auto;width: 100%; max-width: 60px;height: fit-content; margin-left: 15px;border-radius: 10px;z-index: 999999;text-align: center;
+    position: fixed; left: 0; top: 50%;margin-top: auto;width: 100%; max-width: 100px;height: 200px; margin-left: 15px;border-radius: 10px;z-index: 999999;text-align: center;
+    justify-content: center;align-items: center;display: flex;flex-direction: column;
     background-color: rgb(0, 16, 37);box-shadow: rgb(0, 0, 0) 0px 5px 5px;
 }
 
